@@ -138,9 +138,7 @@
 														</div>
 													</div>
 												</form>
-											<div class="main-signup-footer mt-5">
-												<p>Already have an account? <a href="{{ url('/' . $page='signin') }}">Sign In</a></p>
-											</div>
+											
 										</div>
 									</div>
 								</div>

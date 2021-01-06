@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Wintech</title>
+    <title>Uncode</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,14 +12,15 @@
 
   </head>
   <body>
-       <center><h2 style="text-align:center">Wintech</h2>
+       <center><h2 style="text-align:center">Uncode</h2>
         <div class="card">
-                    <img src="images/wiki/logo.svg" alt="John" style="width:30%">
-                    <h1>Bienvenue à Wintech</h1>
+                    <img src="{{URL::asset('assets/img/media/logo-blc-uncode-fond-bleu.png')}}" alt="Admin" style="width:30%">
+                    <h1>Bienvenue à Uncode</h1>
                     <p>Salut Mr,  On est content que tu sois inscrit dans notre site.</p>
-                    <p>A Bientôt!</p>
+                    
                     <p>Cliquer sur ce lien pour retourner à notre site: http://Wintech.com/
                     </p>
+                    <p>A Bientôt!</p>
                     </div>
         </center>
 

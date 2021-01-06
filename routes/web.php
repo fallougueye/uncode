@@ -29,8 +29,7 @@ Route::post('/connexion', 'UserController@login');
 Route::group(['middleware' => 'Connecter'], function(){
     Route::get('/admin/dashboard', 'UserController@dashboard');
     Route::get('/admin/dashboard/client', 'UserController@dashboard_client');
-
-    Route::get('/inscription', 'UserController@inscription');  
-    Route::post('/inscription', 'UserController@inscriptionc')->name('client.inscri');
+    Route::get('/signup', 'UserController@inscription');  
+    Route::post('/signup', 'UserController@inscriptionc')->name('client.inscri');
 
     });

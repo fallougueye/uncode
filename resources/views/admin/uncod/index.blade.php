@@ -15,7 +15,7 @@
 						</div>
 					</div>
 					<div class="main-dashboard-header-right">
-						<div>
+						{{-- <div>
 							<label class="tx-13">Customer Ratings</label>
 							<div class="main-star">
 								<i class="typcn typcn-star active"></i> <i class="typcn typcn-star active"></i> <i class="typcn typcn-star active"></i> <i class="typcn typcn-star active"></i> <i class="typcn typcn-star"></i> <span>(14,873)</span>
@@ -28,7 +28,7 @@
 						<div>
 							<label class="tx-13">Offline Sales</label>
 							<h5>783,675</h5>
-						</div>
+						</div> --}}
 					</div>
 				</div>
 				<!-- /breadcrumb -->
@@ -128,7 +128,7 @@
 				<!-- row closed -->
 
 				<!-- row opened -->
-				<div class="row row-sm">
+				{{-- <div class="row row-sm">
 					<div class="col-md-12 col-lg-12 col-xl-7">
 						<div class="card">
 							<div class="card-header bg-transparent pd-b-0 pd-t-20 bd-b-0">
@@ -433,7 +433,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> --}}
 				<!-- /row -->
 			</div>
 			<!-- /Container -->

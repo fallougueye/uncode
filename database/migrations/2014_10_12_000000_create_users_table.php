@@ -22,6 +22,8 @@ class CreateUsersTable extends Migration
             $table->string('password')->nullable();
             $table->string('nom_role')->nullable();
             $table->integer('role_id')->nullable();
+            $table->bigInteger('account_id')->nullable()->unsigned();
+            $table->foreign('account_id')->references('id')->on('accounts');
             $table->rememberToken();
             $table->timestamps();
         });
